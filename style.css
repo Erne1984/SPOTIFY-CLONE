@@ -9,3 +9,82 @@ body{
     font-family: 'roboto', 'arial';
 }
 
+/*Classes Utilitarias*/
+
+.btn-primary{
+    background: #1D8954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/*navBar*/
+nav{
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+nav .nav-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav .nav-container .logo{
+    height: 40px;
+    width: auto;
+}
+
+nav .nav-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav .nav-container ul li{
+    padding: 0 10px;
+}
+
+nav .nav-container ul li:nth-child(3){
+    border-right: 1px solid white ;
+}
+
+/*ShowCase*/
+
+.showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(/img/showcase.webp) center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+}
+
+.showcase .main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase .main-container h2{
+    font-size: 5rem;
+
+}
+
+.showcase .main-container p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+
+}
