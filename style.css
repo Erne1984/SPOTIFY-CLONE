@@ -22,6 +22,11 @@ body{
     font-weight: bold;
 }
 
+.logo{
+    height: 40px;
+    width: auto;
+}
+
 /*navBar*/
 nav{
     display: flex;
@@ -40,10 +45,7 @@ nav .nav-container{
     padding: 20px 0;
 }
 
-nav .nav-container .logo{
-    height: 40px;
-    width: auto;
-}
+
 
 nav .nav-container ul{
     display: flex;
